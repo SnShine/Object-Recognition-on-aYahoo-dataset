@@ -1,0 +1,80 @@
+SnShine (master): ../../build/tools/extract_features.bin ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel imagenet_val.prototxt fc7 fc7_features 17 lmdb
+E0324 08:04:41.731626  4037 extract_features.cpp:64] Using CPU
+E0324 08:04:49.708118  4037 upgrade_proto.cpp:609] Attempting to upgrade input file specified using deprecated transformation parameters: ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+E0324 08:04:49.708245  4037 upgrade_proto.cpp:614] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0324 08:04:49.708266  4037 upgrade_proto.cpp:618] Attempting to upgrade input file specified using deprecated V1LayerParameter: ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+E0324 08:04:50.842315  4037 extract_features.cpp:134] Extacting Features
+Premature end of JPEG file
+Corrupt JPEG data: 915 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1568 extraneous bytes before marker 0xd9
+E0324 08:08:09.937430  4037 extract_features.cpp:169] Extracted features of 1000 query images for feature blob fc7
+E0324 08:10:33.002727  4037 extract_features.cpp:180] Extracted features of 1700 query images for feature blob fc7
+E0324 08:10:33.288318  4037 extract_features.cpp:185] Successfully extracted the features!
+SnShine (master): ../../build/tools/extract_features.bin ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel imagenet_val.prototxt fc8 train_fc8_features 17 lmdb
+E0324 08:12:06.033843  4886 extract_features.cpp:64] Using CPU
+E0324 08:12:11.497836  4886 upgrade_proto.cpp:609] Attempting to upgrade input file specified using deprecated transformation parameters: ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+E0324 08:12:11.497973  4886 upgrade_proto.cpp:614] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0324 08:12:11.498003  4886 upgrade_proto.cpp:618] Attempting to upgrade input file specified using deprecated V1LayerParameter: ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+E0324 08:12:12.720170  4886 extract_features.cpp:134] Extacting Features
+Premature end of JPEG file
+Corrupt JPEG data: 915 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1568 extraneous bytes before marker 0xd9
+E0324 08:15:22.504132  4886 extract_features.cpp:169] Extracted features of 1000 query images for feature blob fc8
+E0324 08:17:38.035531  4886 extract_features.cpp:180] Extracted features of 1700 query images for feature blob fc8
+E0324 08:17:38.035789  4886 extract_features.cpp:185] Successfully extracted the features!
+SnShine (master): ../../build/tools/extract_features.bin ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel imagenet_val.prototxt fc7 test_fc7_features 8 lmdb
+E0324 08:19:51.963378  4995 extract_features.cpp:64] Using CPU
+E0324 08:19:59.596148  4995 upgrade_proto.cpp:609] Attempting to upgrade input file specified using deprecated transformation parameters: ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+E0324 08:19:59.596302  4995 upgrade_proto.cpp:614] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0324 08:19:59.596334  4995 upgrade_proto.cpp:618] Attempting to upgrade input file specified using deprecated V1LayerParameter: ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+E0324 08:20:00.733640  4995 extract_features.cpp:134] Extacting Features
+E0324 08:21:41.750012  4995 extract_features.cpp:180] Extracted features of 536 query images for feature blob fc7
+E0324 08:21:41.750244  4995 extract_features.cpp:185] Successfully extracted the features!
+SnShine (master): ../../build/tools/extract_features.bin ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel imagenet_val.prototxt fc8 test_fc8_features 8 lmdb
+E0324 08:22:11.206539  5012 extract_features.cpp:64] Using CPU
+E0324 08:22:14.375381  5012 upgrade_proto.cpp:609] Attempting to upgrade input file specified using deprecated transformation parameters: ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+E0324 08:22:14.375517  5012 upgrade_proto.cpp:614] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0324 08:22:14.375545  5012 upgrade_proto.cpp:618] Attempting to upgrade input file specified using deprecated V1LayerParameter: ../../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+E0324 08:22:15.597982  5012 extract_features.cpp:134] Extacting Features
+E0324 08:23:57.051084  5012 extract_features.cpp:180] Extracted features of 536 query images for feature blob fc8
+E0324 08:23:57.051269  5012 extract_features.cpp:185] Successfully extracted the features!
+SnShine (master): ../../build/tools/extract_features.bin ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel imagenet_val.prototxt fc8 test_fc8_alexnet 8 lmdb
+E0324 08:26:40.827371  5085 extract_features.cpp:64] Using CPU
+E0324 08:26:45.267201  5085 upgrade_proto.cpp:609] Attempting to upgrade input file specified using deprecated transformation parameters: ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel
+E0324 08:26:45.267446  5085 upgrade_proto.cpp:614] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0324 08:26:45.267488  5085 upgrade_proto.cpp:618] Attempting to upgrade input file specified using deprecated V1LayerParameter: ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel
+E0324 08:26:46.439522  5085 extract_features.cpp:134] Extacting Features
+E0324 08:28:28.680474  5085 extract_features.cpp:180] Extracted features of 536 query images for feature blob fc8
+E0324 08:28:28.680688  5085 extract_features.cpp:185] Successfully extracted the features!
+SnShine (master): ../../build/tools/extract_features.bin ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel imagenet_val.prototxt fc7 test_fc7_alexnet 8 lmdb
+E0324 08:28:48.403437  5101 extract_features.cpp:64] Using CPU
+E0324 08:28:52.597426  5101 upgrade_proto.cpp:609] Attempting to upgrade input file specified using deprecated transformation parameters: ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel
+E0324 08:28:52.597553  5101 upgrade_proto.cpp:614] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0324 08:28:52.597618  5101 upgrade_proto.cpp:618] Attempting to upgrade input file specified using deprecated V1LayerParameter: ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel
+E0324 08:28:53.811785  5101 extract_features.cpp:134] Extacting Features
+E0324 08:30:36.496438  5101 extract_features.cpp:180] Extracted features of 536 query images for feature blob fc7
+E0324 08:30:36.496798  5101 extract_features.cpp:185] Successfully extracted the features!
+SnShine (master): ../../build/tools/extract_features.bin ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel imagenet_val.prototxt fc8 train_fc8_alexnet 17 lmdb
+E0324 08:31:50.985116  5135 extract_features.cpp:64] Using CPU
+E0324 08:31:55.929344  5135 upgrade_proto.cpp:609] Attempting to upgrade input file specified using deprecated transformation parameters: ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel
+E0324 08:31:55.929484  5135 upgrade_proto.cpp:614] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0324 08:31:55.929509  5135 upgrade_proto.cpp:618] Attempting to upgrade input file specified using deprecated V1LayerParameter: ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel
+E0324 08:31:57.130686  5135 extract_features.cpp:134] Extacting Features
+Premature end of JPEG file
+Corrupt JPEG data: 915 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1568 extraneous bytes before marker 0xd9
+E0324 08:35:04.667398  5135 extract_features.cpp:169] Extracted features of 1000 query images for feature blob fc8
+E0324 08:37:14.917450  5135 extract_features.cpp:180] Extracted features of 1700 query images for feature blob fc8
+E0324 08:37:14.917832  5135 extract_features.cpp:185] Successfully extracted the features!
+SnShine (master): ../../build/tools/extract_features.bin ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel imagenet_val.prototxt fc7 train_fc7_alexnet 17 lmdb
+E0324 08:38:04.546784  5168 extract_features.cpp:64] Using CPU
+E0324 08:38:07.976446  5168 upgrade_proto.cpp:609] Attempting to upgrade input file specified using deprecated transformation parameters: ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel
+E0324 08:38:07.976578  5168 upgrade_proto.cpp:614] Note that future Caffe releases will only support transform_param messages for transformation fields.
+E0324 08:38:07.976601  5168 upgrade_proto.cpp:618] Attempting to upgrade input file specified using deprecated V1LayerParameter: ../../models/bvlc_alexnet/bvlc_alexnet.caffemodel
+E0324 08:38:09.150807  5168 extract_features.cpp:134] Extacting Features
+Premature end of JPEG file
+Corrupt JPEG data: 915 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1568 extraneous bytes before marker 0xd9
+E0324 08:41:18.573391  5168 extract_features.cpp:169] Extracted features of 1000 query images for feature blob fc7
+E0324 08:43:29.877540  5168 extract_features.cpp:180] Extracted features of 1700 query images for feature blob fc7
+E0324 08:43:29.877845  5168 extract_features.cpp:185] Successfully extracted the features!

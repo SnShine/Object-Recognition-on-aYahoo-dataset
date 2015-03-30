@@ -24,11 +24,27 @@ Total Images- 2152
 
 ###Results
 ####Using alexnet model
-||Linear Kernel|RBF Kernel|Polynomial Kernel|LinearSVC|
-|First 500 features of fc7 layer|||||
-|First 2048 features of fc7 layer|||||
-|All features of fc7 layer|||||
-|First 500 features of fc8 layer|||||
-|All features of fc8 layer|||||
-|All features of fc7+fc8 layer|||||
+Accuracy in percentage obtained by taking various features of images and various training methods 
+while using alexnet model.
+
+|alexnet|Linear Kernel|RBF Kernel|Polynomial Kernel|LinearSVC|
+|-------|------------:|---------:|----------------:|--------:|
+|**First 500 features of fc7 layer**|91.6|35.6|84.4|90.2|
+|**First 2048 features of fc7 layer**|93.8|35.6|87.8|93.4|
+|**All features of fc7 layer**|**94.4**|35.6|88.4|94.2|
+|**First 500 features of fc8 layer**|92.8|35.6|91.6|92.6|
+|**All features of fc8 layer**|92.2|35.6|92.2|92.6|
+|**All features of fc7+fc8 layer**|93.4|35.6|92.8|93.8|
+
 ####Using caffenet model
+Accuracy in percentage obtained by taking various features of images and various training methods 
+while using caffenet model.
+
+|caffenet|Linear Kernel|RBF Kernel|Polynomial Kernel|LinearSVC|
+|--------|------------:|---------:|----------------:|--------:|
+|**First 500 features of fc7 layer**|90.2|35.6|84.4|90.2|
+|**First 2048 features of fc7 layer**|92.8|35.6|87.8|93.4|
+|**All features of fc7 layer**|93.4|35.6|88.4|**94.2**|
+|**First 500 features of fc8 layer**|90.0|35.6|91.6|92.6|
+|**All features of fc8 layer**|90.6|35.6|92.2|92.6|
+|**All features of fc7+fc8 layer**|91.4|35.6|92.8|93.8|

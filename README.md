@@ -2,23 +2,21 @@
 Object recognition algorithm to classify 12 categories of aYahoo Image dataset trained in Caffe framework.
 
 ###Categories
-Total Images to train and test- 2032
+Total Images- 2152
+Train Images- 1652
+Test Images- 500
 
-1. Bag- 278 Images, 208
-2. Building- 213 Images, 160
-3. Carriage- 147 Images, 100
-4. Centaur- 48 Images, 35
-5. Donkey- 128 Images, 97
-6. Goat- 149 Images, 110
-7. Jetski- 161 Images, 120
-8. Monkey- 156 Images, 120
-9. Mug- 210 Images, 160
-10. Statue- 191 Images, 155
-11. Wolf- 171 Images, 130
-12. Zebra- 178 Images, 135
-
-###Feature Extraction
-Features extracted using pre-trained models: Caffenet, Alexnet.
-Layers extracted: fc7, fc8.
-
-###Classification
+|Class|Train Images|Test Images|
+|-----|------------|-----------|
+|Bag|222|71|
+|Building|174|52|
+|Carriage|108|46|
+|Centaur|38|13|
+|Donkey|103|31|
+|Goat|118|39|
+|Jetski|134|41|
+|Monkey|129|36|
+|Mug|177|50|
+|Statue|163|36|
+|Wolf|142|41|
+|Zebra|144|43|

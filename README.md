@@ -24,7 +24,11 @@ Total Images- 2152
 
 ###Results
 ####Using alexnet model
+Accuracy obtained by taking various features anf various training methods 
+while using alexnet model.
+
 ||Linear Kernel|RBF Kernel|Polynomial Kernel|LinearSVC|
+||-------------|----------|-----------------|---------|
 |First 500 features of fc7 layer|||||
 |First 2048 features of fc7 layer|||||
 |All features of fc7 layer|||||
